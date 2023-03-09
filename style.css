@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cabecera{
+    display: flex;
+    align-items: center;
+    margin-bottom: 3em;
+    background-color: #1F74AF;
+    color: #fff;
+}
+.cabecera h1{
+    font-size: 40px;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+.cabecera a i{
+    color: #fff;
+}
+.container .row{
+    padding: 20px;
+    /* margin-bottom: 10px; */
+}
+.container .btn{
+    font-family: 'Quicksand', sans-serif;
+    box-shadow: 1px 4px 6px 0px rgba(148,148,148,0.75);
+    -webkit-box-shadow: 1px 4px 6px 0px rgba(148,148,148,0.75);
+    -moz-box-shadow: 1px 4px 6px 0px rgba(148,148,148,0.75);
+    padding: 20px;
+}
+.btn-orquidea .btn{
+    border-color: #C5017A;
+    color: #C5017A;
+}
+.btn-orquidea .btn:hover{
+    border-color: #C5017A;
+    background-color: #C5017A;
+    color: #fff;
+}
+.btn-comedor .btn{
+    border-color:#002659;
+    color: #002659;
+}
+.btn-comedor .btn:hover{
+    background: #002659;
+    border-color:#002659;
+    color: #fff;
+}
+.btn-glpi .btn{
+    border-color:#2670B5;
+    color: #2670B5;
+}
+.btn-glpi .btn:hover{
+    background: #2670B5;
+    border-color:#2670B5;
+    color: #fff;
+}
+.btn-openkm .btn{
+    border-color:#258FB1;
+    color: #258FB1;
+}
+.btn-openkm .btn:hover{
+    background: #258FB1;
+    border-color:#258FB1;
+    color: #fff;
+}
+.footer{
+    display: grid;
+    place-items: center;
+    padding: 20px;
+    min-height: 200px;
+    color: #fff;
+    font-size: 1.1em;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #1F74AF;
+}
